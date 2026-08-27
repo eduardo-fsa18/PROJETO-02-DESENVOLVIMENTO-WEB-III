@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Node.js FULL </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+ 
+<body>
+<header>
+    <img src="/img/image.png" class="logo">
+    <div>
+        <h1>Fatec Diadema Luigi Papaiz</h1>
+        <p>Desenvolvimento de Software Multiplataforma</p>
+    </div>
+</header>
+ 
+<nav>
+    <a href="/">INICIO</a>  
+    <a href="disciplinas/dsw.html" target="_blank">Desenvolvimento Web III</a>
+    <a href="disciplinas/agl.html" target="_blank">ALgebra Linear </a>
+    <a href="disciplinas/bdn.html" target="_blank">Banco de dados-Nao relacional</a>
+    <a href="disciplinas/gps.html" target="_blank">Gestao agil de projetos </a>
+    <a href="disciplinas/ihc.html" target="_blank">Interacao humano computador</a>
+    <a href="disciplinas/ing.html" target="_blank">Ingles </a>
+    <a href="disciplinas/tp2.html" target="_blank">Tecnica de Programacao II</a>
+
+
+</nav>
+ 
+<main>
+    <section>
+        <h2>Materias relacionadas ao 3 semestre:</h2>
+        <h3>Desenvolvimento Web III;</h3>
+        <h3>Algebra Linear;</h3>
+        <h3>Banco de dados-Nao relacional;</h3>
+        <h3>Gestao agil de projetos;</h3>
+        <h3>Interacao humano computador;</h3>
+        <h3>Ingles;</h3>
+        <h3>Tecnica de Programacao.</h3>
+        <h2>ARQUIVOS ESTATICOS:</h2>
+        <p>Esta pagina utiliza HTML, CSS, JavaScript, JSON, Imagens, PDF e Videos.</p>
+ 
+        <button onclick="testarJS()">Testar JavaScript</button>
+        <span id="mensagemJS"></span>
+    </section>
+ 
+    <section>
+        <h2>Predio da Fatec Diadema</h2>
+        <div class="grid">
+                <img src="/img/imgfatec.png">
+            </div>
+        
+    </section>
+ 
+    <section>
+        <h2>ARQUIVO JSON:</h2>
+        <p>Carregado pelo JavaScript usando <code>fetch()</code>.</p>
+        <h1>Desenvolvimento de Software Multiplataforma Fatec Diadema</h1>
+        <img src="/img/dsm.png">
+        <p>Formação superior de tecnologia (3 anos) focada em criar especialistas capazes de projetar, desenvolver e implantar soluções completas para web, mobile, desktop e nuvem. A seguir 4 pontos importantes a saber sobre o curso.</p>
+        <p>1- Full Stack & Mobile: Construção de interfaces modernas (UI/UX), APIs RESTful, bancos de dados e aplicativos para iOS e Android.</p>
+        <p>2- DevOps & Nuvem: Automação, conteinerização e infraestrutura em nuvem aplicadas do zero ao deploy.</p>
+        <p>3- Prática & Agilidade: Aprendizado baseado em projetos reais com metodologias ágeis (Scrum/Kanban).</p>
+        <p>4- Carreira: Atuação como Desenvolvedor Full Stack, Desenvolvedor Mobile, Engenheiro DevOps e Arquiteto de Software.</p>
+        <div id="dadosJson">Carregando...</div>
+    </section>
+ 
+    <section>
+        <h2>ARQUIVO PDF:</h2>
+        <a class="botao" href="/pdf/gabarito.pdf" target="_blank">
+            Abrir PDF
+        </a>
+    </section>
+ 
+    <section>
+        <h2>VIDEOS:</h2>
+ 
+        <button onclick="trocarVideo('videoa.mp4')">Video A</button>
+        <button onclick="trocarVideo('videob.mp4')">Video B</button>
+        <button onclick="trocarVideo('videoc.mp4')">Video C</button>
+ 
+        <p>Executando: <b id="nomeVideo">videoa.mp4</b></p>
+ 
+        <video id="playerVideo" src="/video/videoa.mp4" controls></video>
+    </section>
+ 
+    <section>
+        <h2>TESTAR ROTAS</h2>
+        <a class="botao" href="/rota1">Rota 1</a>
+        <a class="botao" href="/rota2">Rota 2</a>
+        <a class="botao erro" href="/naoexiste">Erro 404</a>
+    </section>
+</main>
+ 
+<footer>
+    FATEC - DESENVOLVIMENTO WEB III
+</footer>
+ 
+</body>
+</html>
