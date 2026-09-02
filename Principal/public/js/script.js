@@ -11,7 +11,7 @@ fetch('/dados/dados.json')
     })
     .then(function(dados){
         document.getElementById('dadosJson').innerHTML =
-            '<b>Materias relacionadas ao 3 semestre:</b> ' + dados["Materias relacionadas ao 3 semestre:"].join(', ');
+            '<b>Materias relacionadas ao 3 semestre:</b> ' + dados["Materias relacionadas ao 3 semestre:"].join('<br> ');
     });
  
 // Trocar Video:
