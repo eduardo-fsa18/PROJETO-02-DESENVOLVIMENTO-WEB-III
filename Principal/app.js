@@ -21,8 +21,6 @@ const contentTypes = {
 // Rotas:
 const routes = {
     '/':'index.html',
-    '/rota1': 'rota1.html',
-    '/rota2': 'rota2.html',
     'disciplinas/dsw': 'disciplinas/dsw.html',
     'disciplinas/agl': 'disciplinas/agl.html',
     'disciplinas/bdn': 'disciplinas/bdn.html',

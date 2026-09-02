@@ -1,7 +1,11 @@
 {
-    
-    "disciplina":"desenvolvimento web III",
-    "curso": "desenvolvimento de software multiplataforma",
-    "nome": "edu",
-    "ano": "2026"
+  "Materias relacionadas ao 3 semestre:": [
+    "Desenvolvimento Web III",
+    "Algebra Linear",
+    "Banco de dados-Nao relacional",
+    "Gestao agil de projetos",
+    "Interacao humano computador",
+    "Ingles",
+    "Tecnica de Programacao"
+  ]
 }
